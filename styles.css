@@ -591,19 +591,13 @@ main {
   }
 }
 
-@media (max-width: 800px) {
-  .grid-2 {
-    grid-template-columns: 1fr;
-  }
-}
-
 @media (max-width: 700px) {
   .topbar {
     background: #ffffff;
     backdrop-filter: none;
   }
 
- .grid-2 {
+  .grid-2 {
     gap: 24px;
   }
 
@@ -689,7 +683,7 @@ main {
     grid-template-columns: 1fr;
   }
 
- .flow-num {
+  .flow-num {
     margin: 0 auto 8px;
   }
 
