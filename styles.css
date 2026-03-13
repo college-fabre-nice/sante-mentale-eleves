@@ -603,20 +603,36 @@ main {
     backdrop-filter: none;	
   }
   
-  .header-main {
+.header-main {
+  display: flex;
+  flex-direction: column;
   align-items: flex-start;
-  }
+  gap: 12px;
+}
 
-  .brand-title {
-    font-size: 1.1rem;
-    line-height: 1.2;
-    white-space: normal;
-  }
+.brand-title {
+  font-size: 1.05rem;
+  line-height: 1.2;
+  white-space: normal;
+}
   
-   .brand-text {
-    min-width: 0;
-  }
+.brand-text {
+  min-width: 0;
+}
   
+  .brand-kicker {
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+ 
+.brand-logo {
+  width: 180px;
+  max-width: 70%;
+  top: 0;
+  position: static;
+  align-self: center;
+}
+ 
   .nav-links {
     width: 100%;
   }
