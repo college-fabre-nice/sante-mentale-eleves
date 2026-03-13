@@ -501,6 +501,10 @@ main {
   background: #e4f0fa;
 }
 
+.partner-list li {
+  text-align: left;
+}
+
 /* ==========================================================================
    Contacts
    ========================================================================== */
@@ -594,8 +598,10 @@ main {
 }
 
 @media (max-width: 700px) {
-  .topbar {
-    padding: 12px;
+.topbar {
+    background: #ffffff;
+    backdrop-filter: none;
+	padding: 12px;
   }
 
   .nav-links {
@@ -632,6 +638,15 @@ main {
   .toc::before {
     display: none;
   }
+  
+  .brand-title {
+  font-size: 1.35rem;
+  white-space: nowrap;
+}
+
+.header-main {
+  align-items: flex-start;
+}
 }
 
 @media (max-width: 640px) {
@@ -639,10 +654,14 @@ main {
     grid-template-columns: 1fr;
   }
 
-  .flow-num {
-    width: 44px;
-    height: 44px;
+ .flow-num {
+    margin: 0 auto 8px;
   }
+
+  .flow-step h2,
+  .flow-step h3 {
+    text-align: center;
+  }  
   
   .messages-content {
     grid-template-columns: 1fr;
