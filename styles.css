@@ -598,12 +598,25 @@ main {
 }
 
 @media (max-width: 700px) {
-.topbar {
+  .topbar {
     background: #ffffff;
-    backdrop-filter: none;
-	padding: 12px;
+    backdrop-filter: none;	
+  }
+  
+  .header-main {
+  align-items: flex-start;
   }
 
+  .brand-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    white-space: normal;
+  }
+  
+   .brand-text {
+    min-width: 0;
+  }
+  
   .nav-links {
     width: 100%;
   }
@@ -638,15 +651,6 @@ main {
   .toc::before {
     display: none;
   }
-  
-  .brand-title {
-  font-size: 1.35rem;
-  white-space: nowrap;
-}
-
-.header-main {
-  align-items: flex-start;
-}
 }
 
 @media (max-width: 640px) {
