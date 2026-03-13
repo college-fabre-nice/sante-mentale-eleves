@@ -600,57 +600,52 @@ main {
 @media (max-width: 700px) {
   .topbar {
     background: #ffffff;
-    backdrop-filter: none;	
+    backdrop-filter: none;
   }
-  
-.header-main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 10px;
-}
 
-.brand-logo {
-  order: 1;
-  position: static;
-  top: 0;
-  width: 170px;
-  max-width: 70%;
-  align-self: center;
-  margin: 8px auto;
-}
+  .header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
 
-.brand-kicker {
-  order: 2;
-  font-size: 0.95rem;
-  line-height: 1.2;
-  text-align: center;
-}
-
-.brand-title {
-  order: 3;
-  font-size: 1.1rem;
-  line-height: 1.2;
-  white-space: normal;
-  text-align: center;
-}
-
-.brand-text {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 6px;
-  min-width: 0;
-}
- 
-  .nav-links {
-    width: 100%;
+  .brand-text {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 6px;
+    min-width: 0;
   }
 
   .brand-logo {
+    order: 1;
+    position: static;
+    top: 0;
     width: 135px;
+    max-width: 70%;
+    align-self: center;
+    margin: 8px auto;
+  }
+
+  .brand-kicker {
+    font-size: 0.95rem;
+    line-height: 1.2;
+    text-align: center;
+  }
+
+  .brand-title {
+    font-size: 1.1rem;
+    line-height: 1.2;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
   }
 
   .nav-links a {
@@ -693,8 +688,8 @@ main {
   .flow-step h2,
   .flow-step h3 {
     text-align: center;
-  }  
-  
+  }
+
   .messages-content {
     grid-template-columns: 1fr;
   }
