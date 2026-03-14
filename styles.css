@@ -353,6 +353,10 @@ main {
   margin-bottom: 0;
 }
 
+.figure-card img {
+  margin: 0 auto;
+}
+
 .eyebrow {
   display: inline-block;
   margin-bottom: 12px;
